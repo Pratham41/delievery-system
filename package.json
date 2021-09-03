@@ -1,0 +1,22 @@
+{
+  "name": "delievery-system",
+  "version": "1.0.0",
+  "description": "delievery system",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "prathmesh kamble",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
